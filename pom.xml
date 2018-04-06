@@ -18,8 +18,8 @@
   </modules>
   <dependencies/>
   <scm>
-    <connection>scm:git:ssh://git@github.com:walterjwhite/metrics.git</connection>
-    <developerConnection>scm:git:ssh://git@github.com:walterjwhite/metrics.git</developerConnection>
+    <connection>scm:git:ssh://git@localhost:/projects/active/github.com/java/infrastructure/metrics.git</connection>
+    <developerConnection>scm:git:ssh://git@localhost:/projects/active/github.com/java/infrastructure/metrics.git</developerConnection>
     <url>https://github.com/walterjwhite/metrics.git</url>
   </scm>
 </project>
