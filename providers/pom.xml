@@ -7,15 +7,13 @@
     <version>0.0.15-SNAPSHOT</version>
   </parent>
   <groupId>com.walterjwhite.java.infrastructure.metrics</groupId>
-  <artifactId>impl</artifactId>
-  <packaging>jar</packaging>
-  <name>metrics - impl</name>
-  <description>metrics - impl</description>
-  <dependencies>
-    <dependency>
-      <groupId>com.walterjwhite.java.infrastructure.inject</groupId>
-      <artifactId>core</artifactId>
-      <version>0.0.15-SNAPSHOT</version>
-    </dependency>
-  </dependencies>
+  <artifactId>providers</artifactId>
+  <packaging>pom</packaging>
+  <name>metrics - providers</name>
+  <description>metrics - providers</description>
+  <url>https://github.com/walterjwhite/metrics</url>
+  <modules>
+    <module>guice</module>
+  </modules>
+  <dependencies/>
 </project>
