@@ -7,10 +7,10 @@
     <version>0.0.15-SNAPSHOT</version>
   </parent>
   <groupId>com.walterjwhite.java.infrastructure.metrics.modules</groupId>
-  <artifactId>netflix-atlas</artifactId>
+  <artifactId>elastic</artifactId>
   <packaging>pom</packaging>
-  <name>metrics - modules - netflix-atlas</name>
-  <description>metrics - modules - netflix-atlas</description>
+  <name>metrics - modules - elastic</name>
+  <description>metrics - modules - elastic</description>
   <modules>
     <module>impl</module>
     <module>providers</module>

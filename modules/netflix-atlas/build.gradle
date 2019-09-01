@@ -1,0 +1,5 @@
+group = 'com.walterjwhite.infrastructure.metrics.modules'
+description = 'metrics - modules - netflix-atlas'
+dependencies {
+  compile project(':infrastructure:dependencies:micrometer-netflix-atlas')
+}
