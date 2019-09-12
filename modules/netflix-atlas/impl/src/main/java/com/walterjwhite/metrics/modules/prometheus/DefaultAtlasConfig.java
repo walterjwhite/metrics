@@ -3,6 +3,7 @@ package com.walterjwhite.metrics.modules.prometheus;
 import com.netflix.spectator.atlas.AtlasConfig;
 
 public class DefaultAtlasConfig implements AtlasConfig {
+  // TODO: this should use properties and not be hard-coded
   @Override
   public String uri() {
     return "http://localhost:7101/api/v1/publish";
